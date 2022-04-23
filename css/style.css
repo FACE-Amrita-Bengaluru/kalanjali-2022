@@ -293,6 +293,10 @@ a:hover {
   color: #000;
 }
 
+.text {
+ 
+  font-size: 10rem;
+}
 .mb-10 {
   margin-bottom: 10px !important;
 }
@@ -337,6 +341,7 @@ a:hover {
   padding-bottom: 100px !important;
 }
 
+
 .translate-y-150 {
   -webkit-transform: translateY(150px);
           transform: translateY(150px);
@@ -359,8 +364,8 @@ a:hover {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
   }
 }
 
@@ -385,8 +390,8 @@ a:hover {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
 }
 
@@ -396,8 +401,8 @@ a:hover {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
 }
 
@@ -455,6 +460,7 @@ a:hover {
   position: absolute;
   top: 110%;
   left: 50%;
+  
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -473,7 +479,7 @@ a:hover {
 
 .hero-bg-2 {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 20%;
 }
 
@@ -509,7 +515,7 @@ a:hover {
 
 .hero-bg-5 {
   position: absolute;
-  top: 250px;
+  top: 220px;
   right: 17%;
 }
 
@@ -1367,3 +1373,58 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+/* Main styles */
+ .textsvg {
+	 fill: none;
+	 stroke-width: 3;
+	 stroke-linejoin: round;
+	 stroke-dasharray: 70 330;
+	 stroke-dashoffset: 0;
+	 -webkit-animation: stroke 6s infinite linear;
+	 animation: stroke 6s infinite linear;
+}
+ .textsvg:nth-child(5n + 1) {
+	 stroke: #f2385a;
+	 -webkit-animation-delay: -1.2s;
+	 animation-delay: -1.2s;
+}
+ .textsvg:nth-child(5n + 2) {
+	 stroke: #f5a503;
+	 -webkit-animation-delay: -2.4s;
+	 animation-delay: -2.4s;
+}
+ .textsvg:nth-child(5n + 3) {
+	 stroke: #e9f1df;
+	 -webkit-animation-delay: -3.6s;
+	 animation-delay: -3.6s;
+}
+ .textsvg:nth-child(5n + 4) {
+	 stroke: #56d9cd;
+	 -webkit-animation-delay: -4.8s;
+	 animation-delay: -4.8s;
+}
+ .textsvg:nth-child(5n + 5) {
+	 stroke: #3aa1bf;
+	 -webkit-animation-delay: -6s;
+	 animation-delay: -6s;
+}
+ @-webkit-keyframes stroke {
+	 100% {
+		 stroke-dashoffset: -400;
+	}
+}
+ @keyframes stroke {
+	 100% {
+		 stroke-dashoffset: -400;
+	}
+}
+/* Other styles */
+ html, body {
+	 height: 100%;
+}
+
+.heading{
+  font-size: 3rem;
+}
+ 
