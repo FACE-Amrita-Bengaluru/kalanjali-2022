@@ -11,7 +11,7 @@
   });
 
   // team slider
-  $('.team-slider').slick({
+  /*$('.team-slider').slick({
     dots: false,
     infinite: false,
     speed: 1000,
@@ -44,46 +44,9 @@
         }
       }
     ]
-  });
+  });*/
 
-  // clients logo slider
-  $('.client-logo-slider').slick({
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    dots: false,
-    arrows: false,
-    responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
+  
 
   // about video popup
   $(document).ready(function () {

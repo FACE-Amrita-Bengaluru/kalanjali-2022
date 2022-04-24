@@ -21,7 +21,7 @@ p,
 .paragraph {
     font-weight: 300;
     color: #4d546f;
-    font-size: 17px;
+    font-size: 21px;
     line-height: 31px;
     font-family: 'Poppins', sans-serif;
 }
@@ -1421,7 +1421,7 @@ textarea.form-control {
     animation-delay: -2.4s;
 }
 .textsvg:nth-child(5n + 3) {
-    stroke: #e9f1df;
+    stroke:#bf4ba2;
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s;
 }
