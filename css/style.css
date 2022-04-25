@@ -15,6 +15,7 @@ body {
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     font-size: 17px;
+    
 }
 
 p,
@@ -24,6 +25,15 @@ p,
     font-size: 21px;
     line-height: 31px;
     font-family: 'Poppins', sans-serif;
+}
+.card-text{
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.gallery-grid{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 h1,
@@ -74,7 +84,9 @@ h6,
     font-size: 13px;
 }
 
-.btn {
+.rounded-circle{border-radius: 1rem;}
+
+.btns {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
