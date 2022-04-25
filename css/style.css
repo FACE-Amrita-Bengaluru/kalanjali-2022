@@ -609,6 +609,13 @@ a:hover {
     position: relative;
 }
 
+@media (max-width: 1000px) {
+    .feature {
+        padding-top: 0;
+        margin-top: -120px;
+    }
+}
+
 .feature-item h4 {
     line-height: 1;
 }
@@ -746,6 +753,16 @@ a:hover {
     right: 0;
     top: -10%;
     z-index: -1;
+}
+
+@media (max-width: 762px) {
+    .section-title--sanskriti {
+        margin-top: 80px !important;
+    }
+
+    .section-title--prachodhana {
+        margin-top: 80px !important;
+    }
 }
 
 @media (max-width: 1200px) {
