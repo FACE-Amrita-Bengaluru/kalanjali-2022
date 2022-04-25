@@ -15,7 +15,6 @@ body {
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     font-size: 17px;
-    
 }
 
 p,
@@ -26,12 +25,12 @@ p,
     line-height: 31px;
     font-family: 'Poppins', sans-serif;
 }
-.card-text{
+.card-text {
     font-size: 15px;
     line-height: 1.2;
 }
 
-.gallery-grid{
+.gallery-grid {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -84,7 +83,9 @@ h6,
     font-size: 13px;
 }
 
-.rounded-circle{border-radius: 1rem;}
+.rounded-circle {
+    border-radius: 1rem;
+}
 
 .btns {
     font-size: 18px;
@@ -392,8 +393,8 @@ a:hover {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(-30px);
-        transform: translateX(-30px);
+        -webkit-transform: translateX(-60px);
+        transform: translateX(-60px);
     }
 }
 
@@ -403,8 +404,8 @@ a:hover {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(-20px);
-        transform: translateX(-20px);
+        -webkit-transform: translateX(-60px);
+        transform: translateX(-60px);
     }
 }
 
@@ -418,8 +419,8 @@ a:hover {
         transform: translateY(0);
     }
     100% {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
     }
 }
 
@@ -429,8 +430,8 @@ a:hover {
         transform: translateY(0);
     }
     100% {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
     }
 }
 
@@ -1433,7 +1434,7 @@ textarea.form-control {
     animation-delay: -2.4s;
 }
 .textsvg:nth-child(5n + 3) {
-    stroke:#bf4ba2;
+    stroke: #bf4ba2;
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s;
 }
