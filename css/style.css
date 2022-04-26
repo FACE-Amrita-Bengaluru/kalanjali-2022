@@ -1020,6 +1020,18 @@ a:hover {
     }
 }
 
+@media (max-width: 900px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 500px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
 .newsletter {
     position: relative;
 }
