@@ -1102,6 +1102,11 @@ a:hover {
     font-weight: 400;
 }
 
+.footer div p {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
 .social-icon li {
     margin: 0 12px;
 }
